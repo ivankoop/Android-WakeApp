@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kitkat_background"
+    android:orientation="vertical"
+    tools:context="py.com.pops.wakeapp.LocationMonitor">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="8dp"
+            android:background="@drawable/locations_border"
+            android:orientation="vertical">
+
+
+
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/finished_monitor_map"
+                tools:context=".MapsActivity"
+                android:layout_weight="2"
+                android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_below="@+id/finished_monitor_map"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:id="@+id/finished_monitor_distance"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="8dp"
+                    android:singleLine="true"
+                    android:text="Distancia recorrida 7 km."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/finished_monitor_time"
+                    android:textColor="@color/white"
+                    android:paddingLeft="8dp"
+                    android:text="Tiempo: 10 minuntos."/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/finish_save_btn"
+            android:layout_marginBottom="40dp"
+            android:onClick="onSaveLocationClick"
+            android:src="@drawable/save_location_icon"
+            android:layout_marginRight="16dp"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:onClick="onClickSpotifyPlaylistF">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:text="¡Enlazá con nuestro Playlist en Spotify y disfrutá de tu viaje!"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spotify_bigicon"
+            android:layout_marginTop="14dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/single_playlist_cont"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:id="@+id/single_playlist_musictxt"
+        android:textSize="20dp"
+        android:text="@string/Singlep_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:id="@+id/single_playlist_authortxt"
+        android:text="@string/Singlep_author"
+        android:paddingLeft="4dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:gravity="bottom"
+        android:background="@color/transparent_white"
+        android:layout_marginTop="5dp">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/on_check"
+        android:icon="@drawable/check_icon"
+        app:showAsAction="always"
+        android:title="@string/check_icon"
+        android:orderInCategory="200"
+        />
+
+    <item
+        android:id="@+id/on_settings"
+        android:icon="@drawable/settings_icon"
+        app:showAsAction="always"
+        android:title="@string/settings_icon"
+        android:orderInCategory="300"
+        />
+
+
+
+
+
+
+</menu>

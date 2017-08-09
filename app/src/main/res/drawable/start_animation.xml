@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/_0034_splashanim2" android:duration="35" />
+    <item android:drawable="@drawable/_0033_splashanim3" android:duration="35" />
+    <item android:drawable="@drawable/_0032_splashanim4" android:duration="35" />
+    <item android:drawable="@drawable/_0031_splashanim5" android:duration="35" />
+    <item android:drawable="@drawable/_0030_splashanim6" android:duration="35" />
+    <item android:drawable="@drawable/_0029_splashanim7" android:duration="35" />
+    <item android:drawable="@drawable/_0028_splashanim8" android:duration="35" />
+    <item android:drawable="@drawable/_0027_splashanim9" android:duration="35" />
+    <item android:drawable="@drawable/_0026_splashanim10" android:duration="35" />
+    <item android:drawable="@drawable/_0025_splashanim11" android:duration="35" />
+    <item android:drawable="@drawable/_0024_splashanim12" android:duration="35" />
+    <item android:drawable="@drawable/_0023_splashanim13" android:duration="35" />
+    <item android:drawable="@drawable/_0022_splashanim14" android:duration="35" />
+    <item android:drawable="@drawable/_0021_splashanim15" android:duration="35" />
+    <item android:drawable="@drawable/_0020_splashanim16" android:duration="35" />
+    <item android:drawable="@drawable/_0019_splashanim17" android:duration="35" />
+    <item android:drawable="@drawable/_0018_splashanim18" android:duration="35" />
+    <item android:drawable="@drawable/_0017_splashanim19" android:duration="35" />
+    <item android:drawable="@drawable/_0016_splashanim20" android:duration="35" />
+    <item android:drawable="@drawable/_0015_splashanim21" android:duration="35" />
+    <item android:drawable="@drawable/_0014_splashanim22" android:duration="35" />
+    <item android:drawable="@drawable/_0013_splashanim23" android:duration="35" />
+    <item android:drawable="@drawable/_0012_splashanim24" android:duration="35" />
+    <item android:drawable="@drawable/_0011_splashanim25" android:duration="35" />
+    <item android:drawable="@drawable/_0010_splashanim26" android:duration="35" />
+    <item android:drawable="@drawable/_0009_splashanim27" android:duration="35" />
+    <item android:drawable="@drawable/_0008_splashanim28" android:duration="35" />
+    <item android:drawable="@drawable/_0007_splashanim29" android:duration="35" />
+    <item android:drawable="@drawable/_0006_splashanim30" android:duration="35" />
+    <item android:drawable="@drawable/_0005_splashanim31" android:duration="35" />
+    <item android:drawable="@drawable/_0004_splashanim32" android:duration="35" />
+    <item android:drawable="@drawable/_0003_splashanim33" android:duration="35" />
+    <item android:drawable="@drawable/_0002_splashanim34" android:duration="35" />
+    <item android:drawable="@drawable/_0001_splashanim35" android:duration="35" />
+    <item android:drawable="@drawable/_0000_splashanim36" android:duration="35" />
+
+
+</animation-list>

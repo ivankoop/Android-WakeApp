@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/kitkat_background"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:theme="@style/ToolBarStyle"
+        android:background="@color/transparent"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title=""
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimary"
+            app:statusBarScrim="@color/colorPrimaryDark"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#ffffff"
+                    android:id="@+id/single_playlist_image"
+                    android:padding="1dp"
+                    android:src="@drawable/spotify_preview"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:textColor="@color/white"
+                    android:id="@+id/single_playlist_count"
+                    android:textSize="12dp"
+                    android:textAlignment="center"
+                    android:text="35 músicas."/>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@color/white">
+
+            </View>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/singleplaylist_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                android:fitsSystemWindows="false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:text="Null"/>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/single_playlist_recycler"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/collapsing_toolbar"
+        app:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/play_icon"
+        android:onClick="onClickPlay"
+        android:layout_marginRight="16dp"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loadingSingle"
+        android:gravity="center" >
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avloadingIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:indicator="BallClipRotatePulse"
+            app:indicator_color="@color/white" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

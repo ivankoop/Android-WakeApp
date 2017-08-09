@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Ringtone 1"
+        android:id="@+id/ringtone_name"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ringtone_radio"
+        android:button="@drawable/checkbox_selector"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent_white">
+    </View>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context="py.com.pops.wakeapp.AlarmActivity">
+
+
+    <LinearLayout
+        android:layout_width="264dp"
+        android:layout_height="368dp"
+        android:background="@drawable/alarm_border"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/alarm_icon"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="Estas a menos de"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="38dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/alarm_distance_txt"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="0.5 Km"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/alarm_time_txt"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="1 min, 3 seg apróx.de llegar de a tu destino."/>
+
+        <Button
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:id="@+id/alarm_close_btn"
+            android:onClick="onClickCloseAlarm"
+            android:background="@drawable/apagar_btn"
+            android:layout_gravity="center"
+            android:text="APAGAR"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="py.com.pops.wakeapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WakeApp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WakeappMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMapActivity"
+            android:logo="@drawable/kitkat_logo"
+            android:theme="@style/MapView" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBxy1EaDKJw4o37vOILaPNcJhsGJklp2m8" />
+
+        <activity android:name=".MainLocationsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlaylistActivity"
+            android:screenOrientation="portrait"
+            android:label="Playlist" />
+        <activity
+            android:name=".AppConfigActivity"
+            android:screenOrientation="portrait"
+            android:label="Config. de la APP" />
+        <activity
+            android:name=".RingtoneActivity"
+            android:screenOrientation="portrait"
+            android:label="Sonido de alarma" />
+        <activity
+            android:name=".SinglePlaylistActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:screenOrientation="portrait"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".LocationMonitor"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".WakeappService"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AlarmActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name=".MonitorFinishedActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

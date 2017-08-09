@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_savelocation"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_gravity="center" android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/lbl_dialog_savelocation"
+        android:text="Nombra el recorrido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:height="50dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:width="200dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:id="@+id/savelocation_dialog_edittext"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/savelocation_dialog_cancel_btn"
+            android:textColor="@color/white"
+            android:text="Cancelar"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:id="@+id/savelocation_dialog_accept_btn"
+            android:text="Aceptar"/>
+
+    </LinearLayout>
+</LinearLayout>

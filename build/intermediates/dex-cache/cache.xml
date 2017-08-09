@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7689aabde68fc7955a7727e684d50ea66ca7cfd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/ebf20fa18391b4586445ee7f36fb2a92b72895b6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_005add1935f1103e50183bdf86d810bceaa6f85a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/9667704e65fdf12cce1c03f28201c96e038f8cec/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2777e527d31dfae52d1b29f8472aa40da78a61c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/2dc01682b928c403958c61de82562490d05d5608/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0b8a5614d19b96ec7e5da105f4c9f8c0e24caf67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/529d7926cee2a038f2dec85dcb51360be039c36a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13c26ab8ef82570708113fb87f7f413cdc71a3bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/37cec4f984d86d71f4123d97aaf1fdaf65580af2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68b17673195dd03c10986fb3c51e930087e4e447/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_264ce9fd82def25277548fad64904e09060b82f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/d0fbb8a14d59f0a9e463e526b4392b99df9e5db0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_739075fdd28f649748700bb3a0b99b9ee6f3ee8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/89b5d1a2dd4da2374c4b65e0ead8284d2d1c5413/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5035aaf60d244038bb143ffad4fbb7cba92ecdc7">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d105b46389c34ec17ce7c31e310e763a4726906e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.3/1262995965440e28ba5c4d480c9c9ab4ccce84cc/picasso-2.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.3_931171d2114964870dddce6a193ea330d2b588c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/2dc01682b928c403958c61de82562490d05d5608/output/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_c88882e756c4c4ee58bff812bfe12a87e3bb9b6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_4b06a0f68677f498065ac6c8e4187bf8c49b591b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/1ae7adfee10e5d161188d269600f713ed7249f70/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cd215d6afb11ae06bbf6ea41d57feee8c0a3f640/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="041033179c11ac4d8f3b10e3930fb7dae3d21797">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a5a881339eee2975e88347db5a041b42baa68b10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/e639f01b9157261e383ef95e8b943da78e186d0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c1bd2b696f8ef5b3e59d26d877ad7351e5b0f8a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/8b3384bb6b933009115ef0f95c447df328f15a76/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="247355087b28e32931f1db7a68ad2995c2034652">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_371f6c7a090c09d47fa057a46a8d72029901d8cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/76d57572cb55a3f918df1e571444f53f986a195d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3953748f2d7984e10dff53156783ac3156eac743/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ivankoop/.android/build-cache/8bf1518566a3c2343b102a5481ecff52c956a1c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/ivankoop/AndroidStudioProjects/wakeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ddc9355c163f2d2536e35c000a00cabfe8d62678/classes.dex" />
+    </item>
+
+</items>

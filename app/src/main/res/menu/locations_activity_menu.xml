@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/app_name"
+        android:id="@+id/locations_search_icon"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:title="@string/app_name"
+        android:id="@+id/locations_map_icon"
+        android:icon="@drawable/map_icon"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/app_name"
+        android:id="@+id/locations_settings_icon"
+        android:icon="@drawable/settings_icon"
+        app:showAsAction="always"
+        />
+</menu>
