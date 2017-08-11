@@ -1,6 +1,10 @@
 # Android-WakeApp
 Android app that alert users when they are near they desired location.
 
+## Current Production app 
+
+https://play.google.com/store/apps/details?id=py.com.pops.wakeapp&hl=en
+
 ## License
 
 ```
