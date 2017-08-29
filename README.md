@@ -1,6 +1,13 @@
 # Android-WakeApp
 Android app that alert users when they are near they desired location.
 
+## wakeapp on the news
+
+- Diario Hoy http://www.hoy.com.py/tecnologia/paraguayos-lanzan-app-para-dormir-en-los-buses-y-no-pasar-la-parada
+- Diario ABC http://www.abc.com.py/edicion-impresa/economia/una-aplicacion-para-usuarios-del-transporte-1525258.html
+- Diario Ultima Hora http://www.ultimahora.com/crean-app-dormir-el-bus-pasarse-la-parada-n1029117.html
+- Radio ñanduti http://www.nanduti.com.py/2016/10/05/dormi-tranquilo-bus-despertate-wake-app/
+- Cronica http://www.cronica.com.py/2016/10/06/ya-no-vas-pasar-parada/
 
 ## License
 
