@@ -1,7 +1,7 @@
 # Android-WakeApp
 Android app that alert users when they are near they desired location.
 
-## wakeapp on the news
+## WakeApp on the news
 
 - Diario Hoy http://www.hoy.com.py/tecnologia/paraguayos-lanzan-app-para-dormir-en-los-buses-y-no-pasar-la-parada
 - Diario ABC http://www.abc.com.py/edicion-impresa/economia/una-aplicacion-para-usuarios-del-transporte-1525258.html
